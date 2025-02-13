@@ -7,7 +7,7 @@ let loadContent=()=>{
     setTimeout(()=>{
         loader.style.display='none';
         content.style.display='block';
-    },2000);
+    },800);
 }
 
 loadContent();
