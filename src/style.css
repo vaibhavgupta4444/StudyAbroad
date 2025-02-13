@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+.link:hover hr{
+    display: block;
+    animation: animate 0.5s ease-in-out 1;
+}
+
+@keyframes animate {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+button:hover{
+    animation: btnAnimate 0.5s ease-in-out 1;
+}
+
+@keyframes btnAnimate {
+    from{
+        color: white;
+        background-color: oklch(0.746 0.16 232.661);
+    }
+    to{
+        color: skyblue;
+        background-color: white;
+    }
+}
+
+::selection{
+    background-color: oklch(0.746 0.16 232.661);
+}
+
+::-webkit-scrollbar{
+    @apply hidden;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select{
+    background-color: transparent;
+}
+
+@keyframes spin-slow {
+    0% {
+        translate: 50px;
+    }
+    100% {
+        translate: -80px;
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 5s linear infinite;
+}
+
+
+
+
+.animation-loader{
+    animation: scale-up1 3s ease-in-out 1;
+}
+
+@keyframes scale-up1 {
+    0%{
+        transform: scale(100%);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(500%);
+        opacity: 0.1;
+    }
+}
+
+
+.animation{
+    animation: scale-up 1s ease-in-out 1;
+}
+
+@keyframes scale-up {
+    0%{
+        transform: scale(0%);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(100%);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,202 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" async />
+</head>
+
+<body>
+    <div class="h-[100vh] flex items-center justify-center loader">
+        <div
+            class="h-[100px] w-[100px] overflow-hidden rounded-full bg-sky-200 flex flex-nowrap items-center justify-center shadow-2xl animation-loader">
+            <img class="animate-spin-slow" src="Image/earth.png" alt="">
+            <img class="animate-spin-slow" src="Image/earth.png" alt="">
+        </div>
+    </div>
+    <div class="content transition-all duration-200 animation">
+        <!-- -----------------------------------navbar-------------------- -->
+        <div
+            class="w-full text-gray-800 flex justify-between items-center py-1 px-2 sm:py-2 sm:px-3 md:py-4 md:px-6 lg:py-6 lg:px-8 xl:px-10 ">
+            <p class="text-2xl">Study Abroad</p>
+            <div class="md:flex items-center gap-4 hidden">
+                <div class="flex flex-col gap-1 link">
+                    <p><a href="">Countries</a></p>
+                    <hr class="hidden">
+                </div>
+                <div class="flex flex-col gap-1 link">
+                    <p><a href="">About Us</a></p>
+                    <hr class="hidden">
+                </div>
+                <div class="flex flex-col gap-1 link">
+                    <p><a href="">Contact us</a></p>
+                    <hr class="hidden">
+                </div>
+            </div>
+            <a href="#leadform"
+                class="text-white bg-sky-400 md:px-4 md:py-2 md:text-base text-xs py-0.5 px-2  border border-sky-400 rounded-full hover:text-sky-400 hover:bg-white transition-all duration-200">Enquire
+                Now</a>
+        </div>
+
+        <!-- ---------------------------------header ------------------------------- -->
+        <div
+            class="flex flex-col sm:flex-row gap-4 items-center bg-sky-400 text-white xl:mx-10 lg:mx-8 md:mx-6 sm:mx-3 mx-2">
+            <img class="h-[20vh] md:h-[30vh] lg:h-[40vh]" src="Image/header.png" alt="" loading="lazy">
+            <div class="w-3/4 flex justify-center">
+                <h1 class="text-xl sm:text-4xl">Apply Now for Study Abroad <i class="fa-solid fa-plane-departure"></i>
+                </h1>
+            </div>
+        </div>
+        <!-- ---------------------------------Top Countries--------------------------------------------------------- -->
+        <div class="py-1 px-2 sm:py-2 sm:px-3 md:py-4 md:px-6 lg:py-6 lg:px-8 xl:px-10  text-gray-800 ">
+            <p class="text-2xl text-center font-semibold py-4">Top Countries</p>
+            <div class="flex flex-nowrap gap-4 overflow-x-auto countries h-[20vh] items-center">
+                <div
+                    class="w-50 border border-gray-800 flex flex-col items-center justify-between py-4 px-4 gap-4 shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <p class="font-bold">&#127479; &#127482;</p>
+                    <p>Russia</p>
+                </div>
+                <div
+                    class="w-50 border border-gray-800 flex flex-col items-center justify-between py-4 px-4 gap-4 shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <p class="font-bold">&#127482; &#127487;</p>
+                    <p>Uzbekistan</p>
+                </div>
+                <div
+                    class="w-50 border border-gray-800 flex flex-col items-center justify-between py-4 px-4 gap-4 shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <p class="font-bold">&#127472; &#127487;</p>
+                    <p> Kazakhstan</p>
+                </div>
+                <div
+                    class="w-50 border border-gray-800 flex flex-col items-center justify-between py-4 px-4 gap-4 shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <p class="font-bold">&#127477; &#127469;</p>
+                    <p>Philippines</p>
+                </div>
+                <div
+                    class="w-50 border border-gray-800 flex flex-col items-center justify-between py-4 px-4 gap-4 shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <p class="font-bold">&#127468; &#127466;</p>
+                    <p>Georgia</p>
+                </div>
+                <div
+                    class="w-50 border border-gray-800 flex flex-col items-center justify-between py-4 px-4 gap-4 shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <p class="font-bold">&#127472; &#127468;</p>
+                    <p>Kyrgyzstan</p>
+                </div>
+                <div
+                    class="w-50 border border-gray-800 flex flex-col items-center justify-between py-4 px-4 gap-4 shadow-md hover:shadow-xl hover:scale-105 transition-all duration-200">
+                    <p class="font-bold">&#127466; &#127468;</p>
+                    <p>Egypt</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ------------------------------------------key benfit------------------------------------------ -->
+        <div
+            class="h-[100vh] sm:h-auto px-2 sm:py-2 sm:px-3 md:py-4 md:px-6 lg:py-6 lg:px-8 xl:px-10  text-gray-800 py-4 mt-4">
+            <p class="text-4xl text-center font-semibold underline">Why Study MBBS Abroad?</p>
+            <div class="flex flex-col-reverse items-center md:grid md:grid-cols-2 mt-4">
+                <div class="w-[30vw]">
+                    <img class="" src="Image/study.jpg" alt="" loading="lazy">
+                </div>
+                <div>
+                    <p class="text-2xl border-b py-2">Key Benefits</p>
+                    <ul class="list-disc leading-loose px-4">
+                        <li>Many countries like Russia, Ukraine, the Philippines, and Kazakhstan offer MBBS at lower
+                            costs
+                            compared to private medical colleges in India.</li>
+                        <li>Medical universities abroad are often recognized by WHO, NMC (MCI), ECFMG, and FAIMER.</li>
+                        <li>Universities have modern labs, research facilities, and experienced faculty.</li>
+                        <li>Many universities admit students based on 12th-grade marks without the need for additional
+                            entrance exams (except NEET for Indian students to practice in India).</li>
+                        <li>Opportunity to interact with students and doctors from different countries.</li>
+                        <li>Clinical training in world-class hospitals provides hands-on experience.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ---------------------------------------Admission process and eligibility----------------------------- -->
+        <div
+            class="h-[90vh] sm:h-auto px-2 sm:py-2 sm:px-3 md:py-4 md:px-6 lg:py-6 lg:px-8 xl:px-10 text-gray-800 py-4 mt-4">
+            <p class="text-4xl font-semibold text-center underline">Admission Process & Eligibility</p>
+            <p class="pt-4">The process of applying for an MBBS program abroad varies by country and university, but
+                here's
+                a general step-by-step guide:</p>
+            <ol class="list-decimal p-4 leading-loose">
+                <li>Research & Choose the Right Country & University</li>
+                <li>Check Eligibility Criteria
+                    <ul class="list-disc px-4">
+                        <li>Age: Minimum 17 years (as of December 31 of admission year).</li>
+                        <li>50% marks in PCB (Physics, Chemistry, Biology) for General category.</li>
+                        <li>40% marks for SC/ST/OBC (as per NMC rules for Indian students).</li>
+                    </ul>
+                </li>
+                <li> Appear for University/Entrance Exam (if required)</li>
+                <li>Application & Document Submission</li>
+                <li>Receive Admission Letter (Offer Letter)</li>
+                <li>Apply for Student Visa</li>
+                <li>Pay Tuition Fees & Book Flight Tickets</li>
+                <li>Travel & Start MBBS Journey</li>
+            </ol>
+        </div>
+        <!-- -------------------------------------------lead form--------------------------------------- -->
+        <div id="leadform"
+            class="h-[90vh] sm:h-auto px-2 sm:py-2 sm:px-3 md:py-4 md:px-6 lg:py-6 lg:px-8 xl:px-10 text-gray-800 py-4 mt-4 flex justify-between items-center">
+            <div class="h-full w-full sm:w-[40%] flex flex-col justify-center items-center">
+                <form method="post" action="/">
+                    <h1 class="text-4xl text-center">Enquire Now</h1>
+                    <div class="w-full my-4">
+                        <input class="border px-4 py-2 rounded-xl w-full" type="text" id="name" name="name"
+                            placeholder="Name" required />
+                    </div>
+                    <div class="w-full my-4">
+
+                        <input class="w-full border px-4 py-2 rounded-xl" type="email" id="email" name="email"
+                            placeholder="Email" required />
+                    </div>
+                    <div class="w-full my-4">
+
+                        <input class="w-full border px-4 py-2 rounded-xl mob" type="number" id="mob" name="mob"
+                            placeholder="Mobile Number" onclick="check" required />
+                    </div>
+                    <div class="w-full my-4">
+                        <select class="w-full border px-4 py-2 rounded-xl" name="country" id="country">
+                            <option value="Russia" selected>Select Country</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Uzbekistan">Uzbekistan</option>
+                            <option value="Kazakhstan">Kazakhstan</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Kyrgyzstan">Kyrgyzstan</option>
+                            <option value="Egypt">Egypt</option>
+                        </select>
+                    </div>
+
+                    <button
+                        class="my-4 border border-sky-400 bg-sky-400 text-white hover:text-sky-400 hover:bg-white py-1 px-4 rounded-full">Enquire
+                        Now</button>
+                    <p class="text-sm">By clicking above, you agree to our <a class="underline text-sky-400"
+                            href="">Terms
+                            of Use</a> and consent to our <a class="underline text-sky-400" href="">Privacy Policy</a>
+                    </p>
+                </form>
+            </div>
+            <div>
+                <img class="w-[50vw] hidden sm:block" src="Image/letsgo.jpg" alt="" loading="lazy">
+            </div>
+        </div>
+
+        <!-- -------------------------------------footer------------------------- -->
+        <div class="bg-gray-900/70 text-white h-[20vh] flex items-center justify-center">
+            All Copyrights &copy; reserved
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
