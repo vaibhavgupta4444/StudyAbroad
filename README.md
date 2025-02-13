@@ -24,11 +24,11 @@ This project is a responsive website for a study abroad consultancy. It provides
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/vaibhavgupta4444/StudyAbroad.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd study-abroad-website
+   cd src
    ```
 3. Open `index.html` in your browser.
 
